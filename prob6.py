@@ -1,7 +1,3 @@
-'''
-This code is super gross but it works. Sorry in advance.
-'''
-
 import numpy as np
 from matplotlib import pyplot as plt
 from numpy.linalg import eig
@@ -12,8 +8,7 @@ def main():
     b = 19/120
     c = 7/40
     d = 1/120
-    #Let columns be starting square
-    #Let rows be ending square
+
     M = np.array([[d, d, d, d, d, d, c, c, c, c, c, c], 
                   [a, 0, 0, 0, 0, 0, 0, a, a, a, a, a], 
                   [a, a, 0, 0, 0, 0, 0, 0, a, a, a, a], 
